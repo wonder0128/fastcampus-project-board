@@ -15,11 +15,13 @@ spring:
     username: roze
     password: 1q2w3e4r
     driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:h2:mem:testdb
+#    username: sa
+#    driver-class-name: org.h2.Driver
   jpa:
     defer-datasource-initialization: true
     hibernate:
       ddl-auto: create
-    #    open-in-view: false
     show-sql: true
     properties:
       hibernate:
